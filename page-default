@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+         body{
+      background-image: url('paper.jpeg');
+    }
+    .overlay{
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: black;
+      opacity: 0.5;
+      pointer-events: none;
+     }
+   h1{
+      font-family: 'Cormorant Garamond', serif;
+      text-align: left;
+      color: #A89D87; 
+    }
+    .text{
+        padding-top: 40vh;
+        padding-left: 20vw;
+        padding-right: 70vw;
+        padding-bottom: 5vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overlay">
+    </div>
+    <div class="text">
+    <h1></h1>
+</div>
+  </body>
+</html>

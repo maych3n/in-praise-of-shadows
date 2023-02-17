@@ -2,38 +2,43 @@
 <html>
   <head>
     <style>
-      @media (max-width: 1vw,1vh) {
-    div.gradient{
-        opacity: 0;
-    }
-}
+     
     h2{
       color: #A89D87
     }
     body{
       background-image: url('paper.jpeg');
     }
+    .overlay{
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: black;
+      opacity: 0.5;
+      pointer-events: none;
+     }
+     .text{
+        padding-top: 30vh;
+        padding-left: 10vw;
+        padding-right: 50vw;
+        padding-bottom: 5vh;
+      }
+      h2{
+      font-family: 'Cormorant Garamond', serif;
+      text-align: left;
+      color: #A89D87; 
+    }
     </style>
   </head>
   <body>
- 
-    <div="gradient">
-    <div
-    style="position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100%;
-    height: 100%;
-    background:rgba(0,0,0,0.5);">
-     </div>
-    </div>
+ <div class="overlay">
+ </div>
    <h1>
    beneath the eaves 
    </h1>
+   <div class="text">
    <h2>
     I possess no specialized knowledge of architecture, but I understand that in the Gothic cathedral of the West,
      the roof is thrust up and up so as to place its pinnacle as high in the heavens as possible-and that herein is 
@@ -46,5 +51,6 @@
      countryside are alike in this respect: like most buildings of the past their roofs give the impression of 
      possessing far greater weight, height, and surface than all that stands beneath the eaves. 
    </h2>
+  </div>
   </body>
 </html>
